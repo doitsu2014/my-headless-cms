@@ -11,6 +11,7 @@ public static class KeycloakAuthenticationExtension
     {
         var configuration = new KeycloakConfiguration(builder.Config);
         builder.Services.ConfigureOptions<KeycloakMemberExternalLoginProviderOptions>();
+
         builder.AddBackOfficeExternalLogins(logins =>
         {
             logins.AddBackOfficeLogin(
@@ -24,11 +25,12 @@ public static class KeycloakAuthenticationExtension
                         schemeName,
                         options =>
                         {
-                            options.BaseAddress = new Uri(configuration.BaseAddress);
                             options.ClientId = configuration.ClientId;
                             options.ClientSecret = configuration.ClientSecret;
                             options.AccessType = KeycloakAuthenticationAccessType.Confidential;
+                            options.BaseAddress = new Uri(configuration.BaseAddress);
                             options.Realm = configuration.Realm;
+                            options.Version = new Version(configuration.Version);
                         });
                 });
         });

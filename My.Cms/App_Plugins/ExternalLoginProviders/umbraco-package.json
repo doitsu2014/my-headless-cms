@@ -1,0 +1,25 @@
+{
+  "$schema": "../../umbraco-package-schema.json",
+  "name": "My Auth Package",
+  "allowPublicAccess": true,
+  "extensions": [
+    {
+      "type": "authProvider",
+      "alias": "My.AuthProvider.Keycloak",
+      "name": "My Auth Provider",
+      "forProviderName": "Umbraco.Keycloak",
+      "meta": {
+        "label": "Keycloak",
+        "defaultView": {
+          "icon": "icon-cloud"
+        },
+        "behavior": {
+          "autoRedirect": false
+        },
+        "linking": {
+          "allowManualLinking": true
+        }
+      }
+    }
+  ]
+}
