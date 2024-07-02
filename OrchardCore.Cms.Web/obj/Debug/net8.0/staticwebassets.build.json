@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "l6PUMTDQiEfGdUk65MnlJgR8GVAHr/qWDDlozmP9vD8=",
+  "Source": "OrchardCore.Cms.Web",
+  "BasePath": "_content/OrchardCore.Cms.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "OrchardCore.Cms.Web/wwwroot",
+      "Source": "OrchardCore.Cms.Web",
+      "ContentRoot": "/Users/doitsu2014/Workspace/my-headless-cms/OrchardCore.Cms.Web/wwwroot/",
+      "BasePath": "_content/OrchardCore.Cms.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/doitsu2014/Workspace/my-headless-cms/OrchardCore.Cms.Web/wwwroot/.placeholder",
+      "SourceId": "OrchardCore.Cms.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/doitsu2014/Workspace/my-headless-cms/OrchardCore.Cms.Web/wwwroot/",
+      "BasePath": "_content/OrchardCore.Cms.Web",
+      "RelativePath": ".placeholder",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.placeholder"
+    }
+  ]
+}
