@@ -130,6 +130,6 @@ dist
 .pnp.*
 
 .idea/
-bin
+Bin
 
 .DS_Store
